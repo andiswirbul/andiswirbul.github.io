@@ -1387,12 +1387,6 @@ input, select, textarea {
 			background: #ffffff;
 		}
 		
-		#header nav.use-middle:before {
-			display: none !important;
-		}
-
-
-
 		#header nav.use-middle ul li.is-middle {
 			border-left: 0;
 		}
@@ -1665,3 +1659,4 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
