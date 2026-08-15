@@ -1295,11 +1295,8 @@ input, select, textarea {
 			}
 
 		#header .content {
-			border-style: solid;
-			border-color: #ffffff;
-			border-top-width: 1px;
-			border-bottom-width: 1px;
-			max-width: 100%;
+    		border: none;
+   			max-width: 100%;
 		}
 
 			#header .content .inner {
