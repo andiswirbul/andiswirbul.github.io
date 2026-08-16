@@ -1721,13 +1721,13 @@ input, select, textarea {
     	outline-offset: 3px;
     	background-color: rgba(255, 255, 255, 0.10);
 	}
-#header nav ul li.is-middle {
+	#header nav ul li,
+	#header nav ul li::before,
+	#header nav ul li::after,
+	#header nav ul li a,
+	#header nav ul li a::before,
+	#header nav ul li a::after {
     border-left: none !important;
     border-right: none !important;
-}
-
-#header nav ul li.is-middle::before,
-#header nav ul li.is-middle::after {
-    display: none !important;
-    content: none !important;
-}
+    box-shadow: none !important;
+	}
