@@ -1696,3 +1696,9 @@ input, select, textarea {
     	outline-offset: 3px;
     	background-color: rgba(255, 255, 255, 0.10);
 	}
+	#header .content .inner p {
+    	font-size: 1.15rem;
+    	line-height: 1.6;
+    	letter-spacing: 0.04rem;
+    	margin-top: 0;
+	}
