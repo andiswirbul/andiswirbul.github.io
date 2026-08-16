@@ -1726,8 +1726,10 @@ input, select, textarea {
 	#header nav ul li::after,
 	#header nav ul li a,
 	#header nav ul li a::before,
-	#header nav ul li a::after {
-    border-left: none !important;
-    border-right: none !important;
-    box-shadow: none !important;
+	#header nav ul li a::after,
+	#header nav::before,
+	#header nav::after {
+    	border: none !important;
+    	box-shadow: none !important;
+    	content: none !important;
 	}
