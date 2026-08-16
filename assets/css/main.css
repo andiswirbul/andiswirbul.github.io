@@ -1733,3 +1733,7 @@ input, select, textarea {
     	box-shadow: none !important;
     	content: none !important;
 	}
+	#header nav.use-middle::after {
+    	display: none !important;
+    	content: none !important;
+	}
